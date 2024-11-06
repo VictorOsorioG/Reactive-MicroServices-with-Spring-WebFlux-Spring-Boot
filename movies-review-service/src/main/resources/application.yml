@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: movies-review-service
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      database: reviews
+server:
+  port: 8082

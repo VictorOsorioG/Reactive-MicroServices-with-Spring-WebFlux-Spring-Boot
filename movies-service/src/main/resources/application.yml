@@ -1,0 +1,7 @@
+application:
+  name: movies-service
+server:
+  port: 8083
+restClient:
+  moviesInfoUrl: http://localhost:8080/api/v1/movies-info
+  moviesReviewUrl: http://localhost:8082/api/v1/movies-review/reviews

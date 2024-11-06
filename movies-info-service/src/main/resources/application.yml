@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: movies-info-service
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      database: movies
